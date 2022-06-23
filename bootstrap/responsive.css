@@ -1,0 +1,86 @@
+@media screen and (min-width: 1440px){
+    .mobile-header{
+        display: none ;
+    }
+    .tablet-header{
+        display: none ;
+    }
+}
+@media screen and (max-width: 1440px){
+    .mobile-header{
+        display: none ;
+    }
+    .tablet-header{
+        display: none ;
+    }
+}
+@media screen and (max-width: 1200px){
+    .mobile-header{
+        display: none ;
+    }
+    .tablet-header{
+        display: none ;
+    }
+}
+@media screen and (max-width: 992px){
+    .tablet-header{
+        display: block ;
+    }
+    .main-desktop-header{
+        display: none ;
+    }
+    .mobile-header{
+        display: none ;
+    }
+    .card-image{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px){
+    .mobile-header{
+        display: none ;
+    }
+    .tablet-header{
+        display: block ;
+    }
+    .main-desktop-header{
+        display: none ;
+    }
+    .side-bar{
+        display: none;
+    }
+    .card-image{
+        width: 50%;
+    }
+    .col-md-9{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .mobile-header{
+        display: block;
+    }
+    .tablet-header{
+        display: none;
+    }
+    .main-desktop-header{
+        display: none;
+    }
+    .card-image{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 375px){
+    .mobile-header{
+        display: block;
+    }
+    .tablet-header{
+        display: none;
+    }
+    .main-desktop-header{
+        display: none;
+    }
+    .card-image{
+        width: 50%;
+    }
+}

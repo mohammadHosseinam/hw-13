@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 64px;
+}
+.search-input{
+    background-color: transparent;
+    border: none;
+}
+.search-box{
+    height: 40px;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+.icon-img{
+    width: 48px;
+    height: 48px;
+}
+.logo::after{
+    display: inline-block;
+    content: " ";
+    width: 1px;
+    height: 24px;
+    margin:0 8px;
+    transform: translateY(10px);
+    background-color: rgba(0,0,0,.12);
+    justify-content: center;
+}
+::placeholder{
+    color: rgb(202, 202, 202);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.submit-ad-btn{
+    line-height: 2;
+    height: 2.5rem;
+}
+.li-aroci{
+    height: 40px;
+    color: rgba(0, 0, 0,.87);
+}
+.footer nav{
+    width: 90%;
+    margin: 0 auto;
+}
+.card-image{
+    background-image: url(../images/divar-ad.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 136px;
+    height: 136px;
+}
